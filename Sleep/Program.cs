@@ -1,4 +1,7 @@
-﻿
+﻿// Sleep ~ Justin Bentley ~ 2025
+
+// Trigger Monitor Down Power State
+
 using System;
 using System.Runtime.InteropServices;
 
