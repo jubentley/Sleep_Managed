@@ -1,14 +1,21 @@
 # Sleep
 
+![og-image](Screenshot%202025-04-16%20134347.jpg)
+
 ## Versions
 This application comes in two variaties:
 * Native code in C: [github.com/jubentley/Sleep_Native ](https://github.com/jubentley/Sleep_Native)
 * Managed code in C# [github.com/jubentley/Sleep_Managed](https://github.com/jubentley/Sleep_Managed)
 
-## Use-Case
-I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
+## Overview
 
-I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
+* <i>Push the button, monitor/s turn off</i>
+
+* I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
+
+* I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
+
+* <i>Use the managed version to prevent AV, OS issues</i>
 
 ## Operation
 
@@ -52,3 +59,5 @@ Group Policy is likely to absolutely deny the running of a unknown executable, t
 Antivirus, especially the less capable ones have been know to arbitrarily flag Native programs, not the case with the major ones though, and also not the case with GitHub as it does scan uploaded Releases (such as the ones in these repositories) and will take them down (and likely have a negative impact on myself) if they believe them to be malicious.<br>
 These days (not the case earlier) the Operating System and User Account Control (starting in Vista, a lot of people actually disabled UAC or atleast the popup, though they did have paid antivirus as a safeguard, some knowledge of what they were doing and were generally capable of reformatting the OS if it became compromised, mind you viruses wern't as nasty back then) will prompt the user to confirm the execution of a native program, especially one that has not been digitally signed (difficult to justify cost in my case), is not from a major organisation nor has the executable been seen before.<br>
 All these factors are lessenend or downright negated by the use of a Managed (C#) Application.
+
+
